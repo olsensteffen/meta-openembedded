@@ -2,11 +2,11 @@ SUMMARY = "C++11 command line parser"
 DESCRIPTION = "A command line parser for C++11 and beyond that provides a rich feature set with a simple and intuitive interface."
 HOMEPAGE = "https://github.com/CLIUtils/CLI11"
 LICENSE = "BSD-3-Clause"
-LIC_FILES_CHKSUM = "file://LICENSE;md5=b73927b18d5c6cd8d2ed28a6ad539733"
-SRCREV = "5cb3efabce007c3a0230e4cc2e27da491c646b6c"
+LIC_FILES_CHKSUM = "file://LICENSE;md5=9ad746b5f49c0fd53c08ca1faff1922c"
+SRCREV = "b9be5b9444772324459989177108a6a65b8b2769"
 PV .= "+git${SRCPV}"
 
-SRC_URI += "gitsm://github.com/CLIUtils/CLI11;branch=v1;protocol=https"
+SRC_URI += "gitsm://github.com/CLIUtils/CLI11;branch=main;protocol=https"
 
 S = "${WORKDIR}/git"
 
